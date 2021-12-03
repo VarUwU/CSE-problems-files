@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	int i;
+	printf("Enter your roll number:\n");
+	scanf("%d",&i);
+	if	(i%2==0)
+	{
+	printf("Your roll number is even!");
+	}
+	else 
+	{
+	printf("Your roll number is odd!");
+	}
+	return 0;
+}
