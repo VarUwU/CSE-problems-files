@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	float m,n;
+	printf("Write number of celsius : ");
+	scanf("%f",&m);
+	n=(m*1.8)+32;
+	printf("%f celsius is equals to %.5f fahrenheit.",m,n);
+	return 0;
+}
