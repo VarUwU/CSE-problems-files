@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int i=1,n;
+	printf("Enter a number you want the table for:");
+	scanf("%d",&n);
+	do
+	{    
+	printf("%d %d's are %d.\n",n,i,n*i);
+	i++;   
+	}while(i<=15);
+	return 0;
+}
