@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,k;
+	float a;
+	printf("Enter 3 values for i,j,k with space, respectively:\n");
+	scanf("%d %d %d",&i, &j,&k);
+	a=(i+j+k)/3.0;
+	printf("The average of %d ,%d ,%d is %.2f:",i,j,k,a);
+	
+	return 	0;
+}
