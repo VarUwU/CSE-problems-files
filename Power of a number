@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int a,n,k;
+	printf("Write the base of the number:\n");
+	scanf("%d",&a);
+	printf("Write the power of the number you want to calculate:\n");
+	scanf("%d",&n);
+	k=a^n;
+	printf("The value of %d^%d is %d",a,n,k);
+	return 0;
+}
