@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int i,j;
+	printf("Enter 2 values for i and j with space respectively:\n");
+	scanf("%d %d",&i, &j);
+	printf("The subtraction of %d and %d is %d\n",i,j,i-j);
+	return 	0;
+}
