@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int a=2,b,x;
+	printf("Till what number do you want to print even numbers: ");
+	scanf("%d",&b);
+	printf("what number you want to exclude from the list:");
+	scanf("%d",&x);
+	for(a=2;a<=b;++++a)
+	{
+	if(a==x)
+	{continue;}
+		printf("\n %d",a);
+	}
+	return 0;
+}
