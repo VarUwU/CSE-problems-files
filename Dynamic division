@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	float i,j;
+	printf("Enter 2 values for i and j with space respectively:\n");
+	scanf("%f %f",&i, &j);
+	printf("The division of %f and %f is %.3f\n",i,j,i/j);
+	return 	0;
+}
